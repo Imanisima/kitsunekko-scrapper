@@ -1,2 +1,3 @@
-# kitsunekko-scrapper
-Scraping kitsunekko.net for transcripts
+## Kitsunekko Web Scrubber
+---
+A quick script that searches the webpage for anime transcripts and downloads the zip files.
