@@ -22,9 +22,8 @@ table_res = soup.find(id='flisttable') # id that points to the transcripts
 trans_elem = table_res.find_all('a', class_='') # Using the table results, retrieve the rows with links to transcripts
 
 anime_list = find_anime_list(trans_elem)
-  
-else:
-  find_zip_files(anime_list, sys.argv[1])
+
+find_zip_files(anime_list, sys.argv[1])
 
 
 '''Get path to zip files for downloads.'''
